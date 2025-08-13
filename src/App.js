@@ -15,14 +15,7 @@ import EmployeDemandes from './components/EmployeDemandes.js';   // ✅ nouveau
 
 function HomePage() {
   return (
-    <>
-      <Navbar />
-      <main style={{ marginLeft: 0, padding: '1rem' }}>
-        <h1>Bienvenue sur mon site React</h1>
-        <p>Ceci est la page d'accueil</p>
-      </main>
-      <Footer />
-    </>
+    <LoginPage/>
   );
 }
 
